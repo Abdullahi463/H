@@ -1,4 +1,4 @@
-# H<!DOCTYPE html>
+ H<!DOCTYPE html>
 <html>
 <head>
 <title>types of web browsers</tittle>
