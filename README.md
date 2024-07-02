@@ -1,28 +1,73 @@
- H<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>types of web browsers</tittle>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <style>
+        /* CSS for basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+        .buy-now {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-<h1>what is a web browser</h1>
-<p1> this refferes to a software appliction designed to access,retrieve and display information on the world wide web.When a user enters a URL (Uniform Resources Locator) or links to the web browser that send a request to the web server to fetch the necessary files.This then displays as web page on the user's device.</p1>
-<h2> what is a search engine</h2>
-<p2>this is a software system designed to help users find infortion stored on the internet.it, which works by crawling the web, indexing the content pages and thebn retrieving and ranking these pages in response to the user's choices</p2>
- <table>
-<caption>web browser</caption>
-<tr>
-<th>web browser</th>
-<th>search engine</th>
-</tr>
-<td>chromes</td>
-<td>googles</td>
-<td>internet elporer</td>
-<td>yahoo</td>
-<td>microsoft edges</td>
-<td>bing<td/td>
-<td>safari</td>
-<td>google</td>
-</tr>
-</table>
+    <h1>Product Listing</h1>
+
+    <!-- Product Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Buy Now</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Product Rows -->
+            <tr>
+                <td><img src="product1.jpg" alt="Product 1"></td>
+                <td>Product 1</td>
+                <td>Description of Product 1</td>
+                <td>$19.99</td>
+                <td class="buy-now"><a href="#">Buy Now</a></td>
+            </tr>
+            <tr>
+                <td><img src="product2.jpg" alt="Product 2"></td>
+                <td>Product 2</td>
+                <td>Description of Product 2</td>
+                <td>$24.99</td>
+                <td class="buy-now"><a href="#">Buy Now</a></td>
+            </tr>
+            <tr>
+                <td><img src="product3.jpg" alt="Product 3"></td>
+                <td>Product 3</td>
+                <td>Description of Product 3</td>
+                <td>$14.99</td>
+                <td class="buy-now"><a href="#">Buy Now</a></td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
