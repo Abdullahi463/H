@@ -1,15 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend Form</title>
+</head>
+<body>
+    <h2>Enter name of your friend.</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="friendName">Friend's Name:</label>
+        <input type="text" id="friendName" name="friendName" required><br><br>
 
-<label for="fileUpload">Choose the file you want to post to your friend</label><br>
-<input type="file" id="fileUpload" name="fileUpload"><br><br>
+        <label for="fileUpload">Choose the file you want to post (Image or other file):</label>
+        <input type="file" id="fileUpload" name="fileUpload" accept="image/*, application/pdf"><br><br>
 
-<label>What does the file contain</label><br>
-<input type="radio" id="fileTypeImage" name="fileType" value="image">
-<label for="fileTypeImage">Image</label><br>
+        <label for="fileDescription">What does the file contain:</label><br>
+        <textarea id="fileDescription" name="fileDescription" rows="4" cols="50" required></textarea><br><br>
 
-<input type="radio" id="fileTypeSourceCode" name="fileType" value="sourcecode">
-<label for="fileTypeSourceCode">Source code</label><br>
-
-<input type="radio" id="fileTypeBinaryCode" name="fileType" value="binarycode">
-<label for="fileTypeBinaryCode">Binary code</label><br><br>
-
-<input type="submit" value="Submit query">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
